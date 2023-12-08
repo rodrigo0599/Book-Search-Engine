@@ -1,10 +1,10 @@
-const express = require("express");
-const path = require("path");
-const db = require("./config/connection");
-const { ApolloServer } = require("@apollo/server");
-const { typeDefs, resolvers } = require("./schemas");
-const { authMiddleware } = require("./utils/auth");
-const { expressMiddleware } = require("@apollo/server/express4");
+import express from "express";
+import path from "path";
+import db from "./config/connection";
+import { ApolloServer } from "@apollo/server";
+import { typeDefs, resolvers } from "./schemas";
+import { authMiddleware } from "./utils/auth";
+import { expressMiddleware } from "@apollo/server/express4";
 
 const PORT = process.env.PORT || 3001;
 const app = express();
