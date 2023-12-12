@@ -34,7 +34,7 @@ For those preferring an online version, the application is also hosted on Heroku
 
 Additionally, a tutorial video is available for guidance on how to navigate and utilize the features of the website:
 
-![main video](../Develop/client/src/assets/book-searh.gif)
+![main video](./client/src/assets/book-searh.gif)
 
 ## License
 
